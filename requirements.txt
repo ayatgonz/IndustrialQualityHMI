@@ -1,0 +1,6 @@
+torch
+torchvision
+Pillow
+opencv-python
+pymodbus
+PyQt6

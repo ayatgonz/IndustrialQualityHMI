@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large model binaries
+*.pth
+*.pt
+*.tmp
+
+# Visual Studio & IDE files
+.vs/
+.idea/
+.vscode/
+
+# Production output images captured during runtime
+production/
+*.jpg
+*.png
+
+# Virtual environments
+venv/
+env/
+classImage/
