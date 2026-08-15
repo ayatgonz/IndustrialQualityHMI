@@ -12,6 +12,7 @@ __pycache__/
 .vs/
 .idea/
 .vscode/
+*.slnx
 
 # Production output images captured during runtime
 production/
@@ -22,3 +23,12 @@ production/
 venv/
 env/
 classImage/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Windows shortcuts & launchers
+*.lnk
+*.bat

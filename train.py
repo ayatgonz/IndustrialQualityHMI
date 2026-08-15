@@ -43,7 +43,10 @@ from PIL import Image
 # ──────────────────────────────────────────────
 # Config
 # ──────────────────────────────────────────────
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if getattr(sys, 'frozen', False):
+    SCRIPT_DIR = sys._MEIPASS
+else:
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_DATA_DIR = os.path.join(SCRIPT_DIR, "dataset")
 DEFAULT_MODEL_PATH = os.path.join(SCRIPT_DIR, "model.pth")
 

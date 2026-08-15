@@ -59,9 +59,14 @@ from pymodbus.device import ModbusDeviceIdentification
 
 
 # ──────────────────────────────────────────────
-# Config & Paths
+# Config & Paths (PyInstaller compatible)
 # ──────────────────────────────────────────────
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if getattr(sys, 'frozen', False):
+    # Running as PyInstaller bundle: data files are in sys._MEIPASS
+    SCRIPT_DIR = sys._MEIPASS
+else:
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
 DEFAULT_MODEL_PATH = os.path.join(SCRIPT_DIR, "model.pth")
 DEFAULT_DATA_DIR = os.path.join(SCRIPT_DIR, "dataset")
 DEFAULT_PRODUCTION_DIR = os.path.join(SCRIPT_DIR, "production")
