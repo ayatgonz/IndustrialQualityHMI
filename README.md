@@ -2,15 +2,17 @@
 
 An industrial-grade automated visual quality inspection system featuring a **PyQt6 HMI Dashboard**, a **Hybrid ResNet18 + Color/Text/Shade AI Classifier**, and complete **Modbus TCP Integration** (Server & Client modes) engineered for seamless integration with PLCs, PACs, and industrial automation networks.
 
-### Application Screenshots Showcase
+---
 
-#### 🖥️ HMI Dashboard (Idle & Status Monitoring)
+## 🖥️ HMI Dashboard Screenshots
+
+### 1. Main Dashboard (Real-time Inspection Status)
 ![HMI Dashboard](assets/hmi_dashboard.png)
 
-#### ⚙️ Modbus TCP & Camera Configuration
+### 2. Modbus TCP Parameters & Live Register Watch Window
 ![Modbus Setup & Live Watch](assets/hmi_setup.png)
 
-#### 🧠 Neural Network Training Control Console
+### 3. Neural Network Training & Log Console
 ![Model Training Controls](assets/hmi_training.png)
 
 ---
