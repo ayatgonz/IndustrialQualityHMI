@@ -2,7 +2,6 @@
 
 An industrial-grade automated visual quality inspection system featuring a **PyQt6 HMI Dashboard**, a **Hybrid ResNet18 + Color/Text/Shade AI Classifier**, and complete **Modbus TCP Integration** (Server & Client modes) engineered for seamless integration with PLCs, PACs, and industrial automation networks.
 
-![Industrial Quality Control HMI](app_icon.ico)
 
 ---
 
